@@ -15,7 +15,7 @@
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/YourUsername/PopCinema.git
+   git clone https://github.com/Prateeksha128/PopCinema.git
    ```
 
 2. Navigate to the project directory:
