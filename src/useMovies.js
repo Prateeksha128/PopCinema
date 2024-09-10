@@ -44,6 +44,7 @@ export function useMovies(query, callBack) {
     return function () {
       controller.abort();
     };
-  }, [query, callBack]);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [query]);
   return { movies, isLoading, error };
 }
